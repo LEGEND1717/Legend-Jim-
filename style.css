@@ -45,3 +45,13 @@ footer p{color:#d9dee7}
  .grid{grid-template-columns:1fr}
  .card{padding:20px}
 }
+
+/* Legend & Genius brand refinements */
+.brand-with-icon{display:inline-flex;align-items:center;gap:10px}
+.brand-with-icon em{font-style:normal;color:#b08d3b}
+.logo-icon{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border:2px solid #b08d3b;border-radius:50%;background:#0b1f3a;color:#fff;font-family:Georgia,serif;font-size:.72rem;font-weight:800;letter-spacing:-.03em;flex:0 0 42px}
+.site-credit{margin-top:12px;font-size:.9rem;color:#d9dee7}
+@media(max-width:800px){
+ .brand-with-icon{gap:8px}
+ .logo-icon{width:38px;height:38px;flex-basis:38px;font-size:.66rem}
+}
